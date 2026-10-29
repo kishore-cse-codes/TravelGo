@@ -1,0 +1,19 @@
+/* Keep the app readable in either system color mode. The product uses a light travel palette. */
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #28344b;
+  background: #f4f6fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid #a5a0ff;
+  outline-offset: 2px;
+}
+#root { width: 100%; max-width: 1180px; min-height: 100vh; margin: 0 auto; }

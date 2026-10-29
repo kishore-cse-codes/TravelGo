@@ -1,0 +1,117 @@
+{
+  "routes": [
+    {
+      "id": "1",
+      "source": "Bengaluru",
+      "destination": "Chennai",
+      "distance": "346 km"
+    },
+    {
+      "id": "2",
+      "source": "Bengaluru",
+      "destination": "Mysuru",
+      "distance": "144 km"
+    },
+    {
+      "id": "3",
+      "source": "Chennai",
+      "destination": "Coimbatore",
+      "distance": "505 km"
+    },
+    {
+      "id": "4",
+      "source": "Hyderabad",
+      "destination": "Bengaluru",
+      "distance": "570 km"
+    }
+  ],
+  "transports": [
+    {
+      "id": "1",
+      "routeId": "1",
+      "name": "Southern Star Express",
+      "type": "Train",
+      "source": "Bengaluru",
+      "destination": "Chennai",
+      "date": "2026-10-30",
+      "departure": "06:15",
+      "price": 680,
+      "totalSeats": 40,
+      "availableSeats": 24
+    },
+    {
+      "id": "2",
+      "routeId": "1",
+      "name": "Greenline Travels",
+      "type": "Bus",
+      "source": "Bengaluru",
+      "destination": "Chennai",
+      "date": "2026-10-30",
+      "departure": "08:30",
+      "price": 540,
+      "totalSeats": 40,
+      "availableSeats": 7
+    },
+    {
+      "id": "3",
+      "routeId": "2",
+      "name": "Mysuru Express",
+      "type": "Train",
+      "source": "Bengaluru",
+      "destination": "Mysuru",
+      "date": "2026-10-30",
+      "departure": "07:10",
+      "price": 290,
+      "totalSeats": 40,
+      "availableSeats": 18
+    },
+    {
+      "id": "4",
+      "routeId": "3",
+      "name": "Kovai Intercity",
+      "type": "Train",
+      "source": "Chennai",
+      "destination": "Coimbatore",
+      "date": "2026-10-30",
+      "departure": "05:45",
+      "price": 760,
+      "totalSeats": 40,
+      "availableSeats": 12
+    },
+    {
+      "id": "5",
+      "routeId": "4",
+      "name": "Deccan Deluxe",
+      "type": "Bus",
+      "source": "Hyderabad",
+      "destination": "Bengaluru",
+      "date": "2026-10-30",
+      "departure": "20:15",
+      "price": 1100,
+      "totalSeats": 40,
+      "availableSeats": 0
+    },
+    {
+      "name": "rtjykuib",
+      "type": "Bus",
+      "source": "yut",
+      "destination": "vuy",
+      "date": "2026-10-29",
+      "departure": "09:59",
+      "price": 865,
+      "totalSeats": 40,
+      "availableSeats": 40,
+      "routeId": "1",
+      "id": "ux3i08KoSgQ"
+    }
+  ],
+  "passengers": [
+    {
+      "name": "rge",
+      "phone": "8567896789687876",
+      "id": "heaaYFokVI8"
+    }
+  ],
+  "bookings": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
