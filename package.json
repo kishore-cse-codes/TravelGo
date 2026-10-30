@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "api": "json-server db.json --port 3000"
+    "api": "json-server db.json --port 3000",
+    "start": "json-server db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "react": "^19.3.1",
